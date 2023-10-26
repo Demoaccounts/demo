@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body class="bg-info-subtle">
+  <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid d-flex justify-content-center">
+      <a class="navbar-brand bank" href="#">
+        <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/bank-account-banking-building-1-31235.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+        Bank
+      </a>
+    </div>
+  </nav>
+  <nav class="navbar navbar-expand-lg bg-warning ">
+    <div class="container-fluid">
+      <!-- <a class="navbar-brand text-light fw-bold" href="#">Bank</a> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active home" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark active" href="loan.html">Loan</a>
+          </li>
+          </ul>
+         
+        
+        <div class="button1">
+        <a class="btn btn-secondary" href="login.html">Login</a>
+        <a class="btn btn-secondary" href="register.html">Register</a>
+        </div>
+      </div>
+    </div>
+  
+  </nav>
+
+    <div class=" mt-5 d-flex justify-content-center ">
+        <div class=" mt-5 row bg-primary rounded-4 align-items-center box">
+            <div class="col bg-info rounded-4 ">
+                <form>
+                    <h3 class="head text-center mt-3">Login</h3>
+                    <div class="mb-3 ">
+                      <label for="exampleInputEmail1" class="form-label">Account Number</label>
+                      <input type="number" class="form-control acno">
+                      <div  class="form-text">We'll never share your account number with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <input type="password" class="form-control pass" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input bg-dark " id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="button" class="btn btn-dark mt-2 mb-4" onclick="login()">Submit</button>
+                  </form>
+            </div>
+                </div>
+                </div>
+                <!-- <div class="w-100 d-flex justify-content-center mt-5">
+                  <div class=" mt-5 rounded-4 box">
+                      <div class="row widths bg-info rounded-4  align-items-center margin1">
+                          <div class="col pb-4 pt-3">
+                              <form>
+                                  <div class="head3  align-items-center text-center">
+                                      <h3>Login</h3>
+                                  </div>
+                                  <div class="mb-4">
+                                    <label for="exampleInputEmail1" class="form-label">Account Number*</label>
+                                    <input type="number" class="form-control amount">
+                                    
+                                  </div>
+                                  <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Password*</label>
+                                    <input type="password" class="form-control pins" id="exampleInputPassword1">
+                                  </div>
+                                  <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input bg-dark mt-2" id="exampleCheck1">
+                                    <label class="form-check-label mt-1" for="exampleCheck1">Check me out</label>
+                                  </div>
+                                  <button type="button" class="btn btn-dark mt-2" onclick="login()">Submit</button>
+                                </form>
+                          </div>
+                      </div>
+                  </div>
+                  </div> -->
+                <script src="javascript.js"></script>
+</body>
+</html>

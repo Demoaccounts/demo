@@ -1,0 +1,16 @@
+/* .heights{
+    height: 700px;
+     width: 390px;
+    border: 3px solid black;
+}
+.head1{
+   text-align: center;
+} */
+.box{
+    width: 500px;
+    border: 2px solid black;
+}
+.bank{
+    font-weight: bold;
+    font-style: italic;
+}

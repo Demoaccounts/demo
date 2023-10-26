@@ -1,0 +1,12 @@
+/* .widths{
+    width: 500px;
+    height: 400px;
+} */
+.box{
+    width: 500px;
+    border:2px solid black;
+}
+.bank{
+    font-weight: bold;
+    font-style: italic;
+}

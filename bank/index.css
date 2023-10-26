@@ -1,0 +1,40 @@
+.margin{
+    margin-left: 3px;
+}
+
+
+.logo{
+    margin-left: 599px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+.card{
+    margin-top: 20px;
+    border-radius: 15px;
+  
+    
+    
+    
+    
+}
+.head{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-size: x-large;
+    margin-top: 20px;
+    font-style: italic;
+}
+.para1{
+    display: flex;
+    justify-content: center;
+
+}
+.login{
+    text-decoration: none;
+}
+.bank{
+    font-weight: bold;
+    font-style: italic;
+}

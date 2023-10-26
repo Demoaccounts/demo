@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+}
+
+.loan{
+    height: 450px !important;
+}
+.height{
+    height: 500px;
+}
+.heads{
+    color: blue;
+    margin-top: 20px;
+    font-style: italic;
+}
+.bank{
+    font-weight: bold;
+    font-style: italic;
+}
